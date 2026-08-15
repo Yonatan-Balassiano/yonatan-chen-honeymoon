@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Honeymoon Italy — 5-19 Oct 2026</name>
+<description><![CDATA[Day-by-day map: sights, hikes, parking, food, rain/cold fallbacks and passes. Pin coordinates are approximate (typically within 100-300 m) — each pin has an "Open exact location" link that resolves precisely in Google Maps.]]></description>
+<Style id="s_base"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href></Icon></IconStyle><LabelStyle><scale>0.85</scale></LabelStyle></Style>
+<Style id="s_main"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle><LabelStyle><scale>0.85</scale></LabelStyle></Style>
+<Style id="s_park"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href></Icon></IconStyle><LabelStyle><scale>0.85</scale></LabelStyle></Style>
+<Style id="s_food"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-diamond.png</href></Icon></IconStyle><LabelStyle><scale>0.85</scale></LabelStyle></Style>
+<Style id="s_rain"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.85</scale></LabelStyle></Style>
+<Style id="s_opt"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.85</scale></LabelStyle></Style>
+<Style id="s_pass"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LabelStyle><scale>0.85</scale></LabelStyle></Style>
+<Folder><name>1 · Bases &amp; hotels</name><open>0</open>
+<Placemark>
+<name>D1 · HSM Hotel San Martino — Garbagnate Monastero</name>
+<description><![CDATA[<b>Day 1 — Mon 5 Oct</b><br><b>Tags:</b> #hotel #d1-d4 #freeparking #d1<br><br>Nights 5-8 Oct. 24h reception, free parking, no restaurant. ~500 m off the SS36 — ask for a room away from the road.<br><br><a href="https://www.google.com/maps/search/?api=1&query=HSM+Hotel+San+Martino+Garbagnate+Monastero">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_base</styleUrl>
+<Point><coordinates>9.301,45.772,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D1 · Milan Malpensa T1 — arrive &amp; depart</name>
+<description><![CDATA[<b>Day 1 — Mon 5 Oct</b><br><b>Tags:</b> #airport #start #end #d1<br><br>Land 19:00 D1. Depart ~23:00 D15. Eat landside here on arrival night. Be at the rental return lot by 20:00 on D15 — confirm the return terminal matches your flight terminal.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Milano+Malpensa+Terminal+1">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_base</styleUrl>
+<Point><coordinates>8.7281,45.6306,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D5 · The Oswald Grand Hotel — Selva di Val Gardena</name>
+<description><![CDATA[<b>Day 5 — Fri 9 Oct</b><br><b>Tags:</b> #hotel #d4-d8 #confirm #d5<br><br>Nights 8-12 Oct. PIN IS APPROXIMATE — confirm the exact address, and ask about the Selva restricted-traffic zone and plate registration.<br><br><a href="https://www.google.com/maps/search/?api=1&query=The+Oswald+Grand+Hotel+Selva+di+Val+Gardena">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_base</styleUrl>
+<Point><coordinates>11.759,46.556,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · B&amp;B Hotel Passo Tre Croci — Cortina</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #hotel #d8-d12 #1805m #d8<br><br>Nights 12-16 Oct, at 1,805 m. The Lago di Sorapis trailhead is at the door. Hard frost most nights. Ask them about trail 215 ice conditions.<br><br><a href="https://www.google.com/maps/search/?api=1&query=B%26B+Hotel+Passo+Tre+Croci+Cortina">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_base</styleUrl>
+<Point><coordinates>12.19,46.573,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Venice — stay in Dorsoduro or Cannaregio</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #hotel #d12 #tobook #d12<br><br>Night 16 Oct. NOT YET BOOKED. Dorsoduro for romance (Zattere at sunset), Cannaregio for easy logistics. Stay on the island, not Mestre.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Dorsoduro+Venezia">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_base</styleUrl>
+<Point><coordinates>12.327,45.431,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D13 · Lake Garda — south-west shore</name>
+<description><![CDATA[<b>Day 13 — Sat 17 Oct</b><br><b>Tags:</b> #hotel #d13-d14 #tobook #d13<br><br>Nights 17-19 Oct. NOT YET BOOKED. Salo / Desenzano / Sirmione / Padenghe — all ~2h to MXP. Shortlist: Bellerive (Salo), Acquaviva (Desenzano), Villa Arcadio (Salo hills).<br><br><a href="https://www.google.com/maps/search/?api=1&query=Sirmione+Lago+di+Garda">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_base</styleUrl>
+<Point><coordinates>10.607,45.493,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>2 · Main plan — sights &amp; hikes</name><open>0</open>
+<Placemark>
+<name>D2 · Bellagio — ferry pier &amp; old town</name>
+<description><![CDATA[<b>Day 2 — Tue 6 Oct</b><br><b>Tags:</b> #sight #town #ferry #d2<br><br>D2 afternoon. Arrive as a foot passenger from Cadenabbia. Villa Melzi gardens EUR10, open to 19:00. Golden hour 17:45-18:55.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Bellagio+imbarcadero">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>9.2617,45.9857,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D2 · Sunset boat — Bellagio / Varenna</name>
+<description><![CDATA[<b>Day 2 — Tue 6 Oct</b><br><b>Tags:</b> #boat #splurge #romantic #d2<br><br>D2. Private hour ~EUR150-200, or shared from ~EUR40pp. October light on this lake is the best of the year. Book ahead — October fleets are reduced.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Bellagio+boat+tour">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>9.26,45.986,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D2 · Villa Carlotta — Tremezzo</name>
+<description><![CDATA[<b>Day 2 — Tue 6 Oct</b><br><b>Tags:</b> #sight #villa #rainproof #d2<br><br>D2. Open daily, 10:00-19:00 to 18 Oct. ~EUR15-17.50. Real art inside (Canova, Hayez) — the one villa that survives a wet day.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Villa+Carlotta+Tremezzo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>9.2231,45.9853,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D2 · Villa del Balbianello — Lenno</name>
+<description><![CDATA[<b>Day 2 — Tue 6 Oct</b><br><b>Tags:</b> #sight #villa #booknow #closedWed #d2<br><br>D2. Gardens ~EUR13-14, + 45-min interior tour ~EUR24-25. CLOSED Mon AND Wed — this is why the west shore goes on Tuesday. Book the interior tour ahead.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Villa+del+Balbianello+Lenno">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>9.2103,45.9694,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D3 · Orrido di Bellano — gorge walkway</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #sight #gorge #EUR8 #betterinrain #d3<br><br>D3, end of the walk. EUR8 adult. Lit walkway bolted into a gorge. Better with more water in it, but CAN CLOSE on high water — check before driving over.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Orrido+di+Bellano">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>9.301,46.0424,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D3 · Sentiero del Viandante — Varenna start (Olivedo)</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #hike #3h #530m #slipperywet #d3<br><br>D3. ~3h, ~530 m ascent to Bellano. Up Via della Croce from Olivedo, via Vezio and Regolo. POLISHED LIMESTONE — genuinely slippery wet; don&#x27;t do it in a downpour.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Olivedo+Varenna">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>9.2847,46.0119,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D3 · Villa Monastero — Varenna</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #sight #villa #closedTue #rainproof #d3<br><br>D3. Garden + house museum EUR15, garden only EUR13. Last entry 17:30. CLOSED TUESDAYS — hence Varenna on Wednesday. Furnished period rooms = indoor option.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Villa+Monastero+Varenna">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>9.286,46.0075,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D4 · Bergamo Citta Alta — Piazza Vecchia</name>
+<description><![CDATA[<b>Day 4 — Thu 8 Oct</b><br><b>Tags:</b> #sight #town #lunch #ztl #d4<br><br>D4 lunch stop, directly on the A4. Funicular up ~EUR3 return, every 5-10 min. Eat casoncelli alla bergamasca. NEVER drive up — hard ZTL plus Lombardy emissions rules.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Piazza+Vecchia+Bergamo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>9.6626,45.7038,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D5 · Col Raiser gondola — Santa Cristina (CHEAPER ROUTE)</name>
+<description><![CDATA[<b>Day 5 — Fri 9 Oct</b><br><b>Tags:</b> #lift #cheaper #quieter #preferred #d5<br><br>D5 preferred start. Runs to 1 Nov, materially cheaper than the EUR74 Ortisei cable car, far quieter. From the top walk up via Pieralongia (~+400 m, 1h15-1h30) — this is the bit the closed Fermeda chairlift used to do.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Col+Raiser+Santa+Cristina+Val+Gardena">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.72,46.565,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D5 · Ortisei–Furnes–Seceda cable car (CLASSIC ROUTE)</name>
+<description><![CDATA[<b>Day 5 — Fri 9 Oct</b><br><b>Tags:</b> #lift #EUR74 #to2Nov #d5<br><br>D5 alternative. ~EUR74 return, first up 08:30. Fastest way to the famous view. Park at the station — Ortisei centre is one of the longest pedestrian zones in the Dolomites.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Ortisei+Seceda+cable+car">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.6743,46.5793,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D5 · Rifugio Firenze / Regensburgerhutte</name>
+<description><![CDATA[<b>Day 5 — Fri 9 Oct</b><br><b>Tags:</b> #hut #lunch #closes12Oct #d5<br><br>D5 lunch. CLOSES 12 OCTOBER — one of your last chances. Service 11:30-15:00. Reachable ~25 min on path 4 from the top of Col Raiser.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Rifugio+Firenze+Regensburger+Hutte">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.7043,46.5928,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D5 · Seceda — the ridge</name>
+<description><![CDATA[<b>Day 5 — Fri 9 Oct</b><br><b>Tags:</b> #hike #view #weatherdependent #d5 #d5<br><br>D5. THE most weather-dependent day of the trip — in cloud you pay for fog. Ridge walk 8.9 km, +575 m, 3-3.5h. Move it to any clear day in the block.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Seceda">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.6503,46.6081,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D6 · Adolf Munkel Weg — Zannes/Zans trailhead</name>
+<description><![CDATA[<b>Day 6 — Sat 10 Oct</b><br><b>Tags:</b> #hike #9km #378m #parkingbooking #d6<br><br>D6 morning. 9.2 km circuit, +378 m, 3-3.5h, easy-moderate, along the base of the Odle north wall. ZANNES CAR PARK MAY NEED AN ONLINE BOOKING IN 2026 — check before driving up.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Zannes+Val+di+Funes">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.707,46.6355,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D6 · Chiesa di Santa Maddalena — Val di Funes</name>
+<description><![CDATA[<b>Day 6 — Sat 10 Oct</b><br><b>Tags:</b> #sight #photo #walkonly #d6<br><br>D6. The most photographed building in South Tyrol. NON-RESIDENT CARS ARE BARRED from the panorama viewpoint May-Nov — park in the village and walk 20-30 min.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Santa+Maddalena+Val+di+Funes">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.6997,46.642,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D6 · Torggelen — Villandro / Villanders</name>
+<description><![CDATA[<b>Day 6 — Sat 10 Oct</b><br><b>Tags:</b> #food #highlight #booknow #rainproof #d6<br><br>D6 afternoon, 15 min from Zannes. Certified farms: Oberpartegger, Winklerhof, Pschnickerhof — linked by walking trails. PHONE AHEAD: season nominally starts early Oct but many farms open mid-month. Indoors = rain-proof.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Villandro+Villanders+Alto+Adige">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.54,46.63,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D7 · Alpe di Siusi / Compatsch</name>
+<description><![CDATA[<b>Day 7 — Sun 11 Oct</b><br><b>Tags:</b> #hike #meadow #easy #45h #d7<br><br>D7 afternoon. Up to 14.4 km, +483 m, 4.5h, easy. Europe&#x27;s largest high meadow. Best in low afternoon light. Open huts: Sassopiatto (to 18 Oct), Alpe di Tires (to 19 Oct), Schgaguler (to 1 Nov).<br><br><a href="https://www.google.com/maps/search/?api=1&query=Compatsch+Alpe+di+Siusi">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.62,46.54,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D7 · Forcella Sassolungo &#x27;coffin&#x27; gondola — Passo Sella</name>
+<description><![CDATA[<b>Day 7 — Sun 11 Oct</b><br><b>Tags:</b> #lift #closes11Oct #datecritical #d7<br><br>D7, 09:30. CLOSES 11 OCTOBER — you cross this pass on the 12th, one day too late. Two-person standing cabins that never stop; 5 min up to Rifugio Toni Demetz at 2,681 m. Date is single-sourced — VERIFY EARLY. Wind can hold it even in clear weather.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Forcella+Sassolungo+cable+car+Passo+Sella">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.7595,46.5093,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D7 · Mont Seuc gondola — Ortisei (use this one on D7)</name>
+<description><![CDATA[<b>Day 7 — Sun 11 Oct</b><br><b>Tags:</b> #lift #to2Nov #dontdriveup #d7<br><br>D7. Runs to 2 Nov, and it&#x27;s the side you arrive from after Passo Sella. DON&#x27;T DRIVE UP to Compatsch — road closed to non-residents 09:00-17:00 and parking needs an online reservation.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Ortisei+Alpe+di+Siusi+cable+car">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.676,46.574,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Canazei — Val di Fassa</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #town #coffee #lunch #d8<br><br>D8, ~11:00. Main town of the Ladin Val di Fassa, at the hub of the four great passes. Coffee and lunch stop. Sass Pordoi cable car almost certainly closed by now.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Canazei+Val+di+Fassa">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.769,46.477,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Lago di Carezza / Karersee</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #lake #photo #goearly #20min #d8<br><br>D8, ~09:30. Emerald lake reflecting the Latemar. Paid car park on the SS241 with an underpass to the shore; boardwalk loop 20-30 min. GO EARLY — you need still water, and the coaches arrive late morning. No swimming, no going to the water&#x27;s edge.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Lago+di+Carezza+Karersee">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>11.576,46.409,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D9 · Cadini di Misurina viewpoint</name>
+<description><![CDATA[<b>Day 9 — Tue 13 Oct</b><br><b>Tags:</b> #hike #easy #exposed #dryonly #d9<br><br>D9, add-on. 3.9 km, +144 m, 1-1.5h on trail 117 from Rifugio Auronzo. THE FINAL SPUR IS A NARROW, EXPOSED PATH ON A ROCK NOSE — dry conditions only, skip it if there&#x27;s frost or fresh snow.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Cadini+di+Misurina+viewpoint">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.29,46.605,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D9 · Lago di Braies / Pragser Wildsee</name>
+<description><![CDATA[<b>Day 9 — Tue 13 Oct</b><br><b>Tags:</b> #lake #before9am #noreservation #d9<br><br>D9, arrive ~08:00. Sunrise 07:26 — leave the hotel at 07:00. Still water, empty boathouse, coaches still an hour out. Shore loop 3.5 km flat, ~1h. NO RESERVATION NEEDED IN OCTOBER (that system runs 1 Jul-15 Sep). Survives mist well.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Lago+di+Braies+Pragser+Wildsee">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.085,46.695,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D9 · Rifugio Locatelli — CLOSED, no food or shelter</name>
+<description><![CDATA[<b>Day 9 — Tue 13 Oct</b><br><b>Tags:</b> #closed #warning #d9<br><br>D9. CLOSED for the season. It sits at the far side of the Tre Cime loop, so there is no food, water or shelter for the middle two-thirds. Wind at Forcella Lavaredo is brutal in October — carry everything.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Rifugio+Locatelli+Dreizinnenhutte">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.308,46.625,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D9 · Tre Cime di Lavaredo — Rifugio Auronzo</name>
+<description><![CDATA[<b>Day 9 — Tue 13 Oct</b><br><b>Tags:</b> #hike #EUR40 #prebook #best #d9<br><br>D9. BOOK THE SLOT at pass.auronzo.info — EUR40/car, plate required, 12h validity, autumn access ~08:00-18:00. Loop 8.8-10 km, +425 m, 3-4h anticlockwise. ~700 spaces at the rifugio.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Rifugio+Auronzo+Tre+Cime+di+Lavaredo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.296,46.613,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D10 · Lago Federa / Croda da Lago</name>
+<description><![CDATA[<b>Day 10 — Wed 14 Oct</b><br><b>Tags:</b> #hike #larches #hutlunch #rainok #d10<br><br>D10. THE most famous larch location in the Dolomites, 2,046 m. Rifugio Croda da Lago / Palmieri is the most reliable hut lunch of the Cortina leg — call +39 0436 862085. Overcast light is GOOD for larches.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Lago+Federa+Rifugio+Croda+da+Lago">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.0787,46.5006,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D10 · Ponte de Ru Curto — Lago Federa trailhead</name>
+<description><![CDATA[<b>Day 10 — Wed 14 Oct</b><br><b>Tags:</b> #trailhead #freeparking #d10<br><br>D10 start. Free trailhead parking. 8.4 km / +469 m / 3h out-and-back, or the 13.1 km / +700 m / 5h circuit.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Ponte+de+Ru+Curto+Cortina">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.102,46.516,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D11 · Cinque Torri — WWI open-air museum</name>
+<description><![CDATA[<b>Day 11 — Thu 15 Oct</b><br><b>Tags:</b> #hike #wwi #chairliftclosed #carryfood #d11<br><br>D11. Restored trenches and tunnels among the five towers. CHAIRLIFT CLOSES 11 OCT and all three huts (Scoiattoli, Nuvolau, Cinque Torri) are shut — walk up from Col Gallina and carry food.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Cinque+Torri+Cortina">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.045,46.515,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D11 · Col Gallina — free parking, Cinque Torri trailhead</name>
+<description><![CDATA[<b>Day 11 — Thu 15 Oct</b><br><b>Tags:</b> #trailhead #freeparking #d11<br><br>D11. Free parking on the SR48 opposite Ristorante da Strobel. Circuit 9.6 km, +600 m, ~3h45 via Lago di Limedes to Rif. Averau, Nuvolau and Cinque Torri. Nuvolau&#x27;s final ridge is narrow with a cable.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Col+Gallina+Passo+Falzarego">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.025,46.523,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D11 · Lagazuoi cable car — Passo Falzarego</name>
+<description><![CDATA[<b>Day 11 — Thu 15 Oct</b><br><b>Tags:</b> #lift #lastoneopen #to18Oct #d11<br><br>D11. THE ONLY LIFT STILL RUNNING in Cortina — to 18 Oct. Free parking at the pass. First up 09:00, every 15 min, LAST DOWN 17:00. Terrace lunch at 2,752 m — call +39 0436 867303.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Passo+Falzarego+Lagazuoi+cable+car">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.0086,46.5192,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Rialto market</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #market #saturday #morning #d12<br><br>D13, 09:00. Saturday morning is the good one — fish, produce, noise. All&#x27;Arco is a minute away.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Mercato+di+Rialto+Venezia">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.335,45.44,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Tronchetto parking — Venice</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #parking #EUR29 #maxheight210 #d12<br><br>D12, arrive ~14:00. EUR29 per 24h, covered, 3,483 spaces. MAX HEIGHT 2.10 m — check your car isn&#x27;t a tall SUV. Easiest arrival: you never leave the causeway. People Mover to Piazzale Roma ~EUR1.50.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Venezia+Tronchetto+Parking">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>12.301,45.443,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D14 · Castello Scaligero — Sirmione</name>
+<description><![CDATA[<b>Day 14 — Sun 18 Oct</b><br><b>Tags:</b> #sight #castle #d14<br><br>D14. Water-moated Scaliger castle guarding the entrance to the old town. Sirmione at night, once the day-trippers have gone, is the good version.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Castello+Scaligero+Sirmione">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>10.607,45.493,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D14 · Grotte di Catullo — Sirmione</name>
+<description><![CDATA[<b>Day 14 — Sun 18 Oct</b><br><b>Tags:</b> #sight #roman #rainbreaks #d14<br><br>D14, 09:30. Vast Roman villa ruin in an olive grove at the tip of the peninsula, water on three sides. Go early, before the coaches. OPEN RUIN — the one thing on D14 that rain ruins.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Grotte+di+Catullo+Sirmione">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_main</styleUrl>
+<Point><coordinates>10.607,45.505,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>3 · Parking</name><open>0</open>
+<Placemark>
+<name>D2 · Cadenabbia ferry pier — park &amp; walk on</name>
+<description><![CDATA[<b>Day 2 — Tue 6 Oct</b><br><b>Tags:</b> #parking #ferry #d2<br><br>D2. Leave the car here and walk on as a foot passenger. DON&#x27;T put it on the car ferry — you don&#x27;t need it in Bellagio and it costs several times a foot ticket.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Cadenabbia+imbarcadero">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.228,45.995,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D2 · Free parking — uphill streets, Lenno / Mezzegra</name>
+<description><![CDATA[<b>Day 2 — Tue 6 Oct</b><br><b>Tags:</b> #parking #free #10-15minwalk #d2<br><br>D2 free option. White-line residential streets uphill off the SS340. 10-15 min walk down. Read the signs — anything yellow is residents-only.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Mezzegra+Como">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.223,45.972,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D2 · Lido di Lenno — car park for Balbianello</name>
+<description><![CDATA[<b>Day 2 — Tue 6 Oct</b><br><b>Tags:</b> #parking #paid #EUR1.5-2h #d2<br><br>D2. SET THE SATNAV HERE, not to the villa. The taxi-boat (~EUR6) and the 20-25 min woodland path both start here. Paid blue lines.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Lido+di+Lenno+parcheggio">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.2168,45.9744,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D3 · Olivedo / Varenna pier lots — paid fallback</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #parking #paid #EUR2h #d3<br><br>D3 paid fallback. ~EUR2/h or EUR12-15/day in high season, usually cheaper and less strictly enforced in October. NEVER drive into Varenna&#x27;s centre — the lanes are stairs.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Parcheggio+Varenna+imbarcadero">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.284,46.0125,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D3 · Perledo — free roadside parking above Varenna</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #parking #free #10-15minwalk #d3<br><br>D3 free fallback. White lines on the road up to Perledo. 10-15 min down, 20-25 min back up.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Perledo+Lecco">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.2903,46.0139,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D3 · Varenna-Esino-Perledo station — THE smart park</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #parking #free #thetrick #d3<br><br>D3. Free or near-free, 10 min walk down into Varenna — AND it&#x27;s exactly where your train back from Bellano drops you. No backtracking, no second fee, no uphill walk after a 3-hour hike.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Stazione+Varenna+Esino+Perledo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.2811,46.0142,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D4 · Bergamo funicular base — Viale Vittorio Emanuele II</name>
+<description><![CDATA[<b>Day 4 — Thu 8 Oct</b><br><b>Tags:</b> #funicular #EUR3return #d4<br><br>D4. Where the funicular to Citta Alta starts. ~EUR1.50 single / EUR3 return, every 5-10 min, runs 06:00 to past midnight.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Funicolare+Bergamo+Alta+stazione+bassa">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.665,45.6983,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D4 · Eremo di Monte Barro — free parking + view</name>
+<description><![CDATA[<b>Day 4 — Thu 8 Oct</b><br><b>Tags:</b> #parking #free #noeffortview #d4<br><br>D4. 14th-c. hermitage with a restaurant and terrace, drivable. The panorama with zero walking if you&#x27;re short on time.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Eremo+di+Monte+Barro">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.3661,45.8339,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D4 · Ex Bonini — free P+R, Via San Bernardino 149</name>
+<description><![CDATA[<b>Day 4 — Thu 8 Oct</b><br><b>Tags:</b> #parking #free #parkandride #d4<br><br>D4. ~150 spaces, bus line 6. Second free option for Bergamo.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Via+San+Bernardino+149+Bergamo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.6598,45.6893,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D4 · Fiera di Bergamo — 300 FREE spaces</name>
+<description><![CDATA[<b>Day 4 — Thu 8 Oct</b><br><b>Tags:</b> #parking #free #parkandride #d4<br><br>D4. 300 free spaces, served by bus line 1 into the centre. The cheap answer for Bergamo. CONFIRMED from the operator.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Fiera+di+Bergamo+parcheggio">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.6995,45.6885,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D4 · Paid garages — Ex Gasometro / Baschenis / Stadio</name>
+<description><![CDATA[<b>Day 4 — Thu 8 Oct</b><br><b>Tags:</b> #parking #paid #24h #d4<br><br>D4 paid, closer in. Ex Gasometro (312 spaces), Via Baschenis (71), underground Stadio Atalanta at Piazzale Goisis (348, MAX HEIGHT 2.20 m). All open 24/7.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Parcheggio+Ex+Gasometro+Bergamo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.672,45.696,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D4 · Piazzale Cappello degli Alpini — Monte Barro</name>
+<description><![CDATA[<b>Day 4 — Thu 8 Oct</b><br><b>Tags:</b> #parking #free #trailhead #d4<br><br>D4. Free weekday parking right at the trailhead. The EUR5 shuttle from the Fornace lot only runs on busy weekends.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Parco+Monte+Barro+Galbiate">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>9.3676,45.8327,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D6 · Zannes / Zans car park — Val di Funes</name>
+<description><![CDATA[<b>Day 6 — Sat 10 Oct</b><br><b>Tags:</b> #parking #maybebooking #check #d6<br><br>D6. PRE-BOOKABLE ONLINE IN 2026 — check whether Sat 10 Oct needs a reservation before you drive up.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Parkplatz+Zans+Villnoss">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>11.707,46.6355,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D7 · Passo Sella — free parking</name>
+<description><![CDATA[<b>Day 7 — Sun 11 Oct</b><br><b>Tags:</b> #parking #free #d7<br><br>D7 and D8. Free parking at the pass, at the foot of the coffin gondola. 20 min from Selva.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Passo+Sella+parcheggio">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>11.7622,46.5088,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Lago di Carezza car park — SS241</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #parking #paid #d8<br><br>D8. Paid pay-and-display on the SS241, with an underpass to the lake shore.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Parcheggio+Lago+di+Carezza">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>11.5735,46.4085,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D9 · Lago di Braies — lakehead parking</name>
+<description><![CDATA[<b>Day 9 — Tue 13 Oct</b><br><b>Tags:</b> #parking #paid #noreservationOct #d9<br><br>D9. Paid pay-and-display at the lakehead. No reservation needed in October.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Parkplatz+Pragser+Wildsee">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>12.087,46.696,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D9 · Tre Cime toll gate — Misurina</name>
+<description><![CDATA[<b>Day 9 — Tue 13 Oct</b><br><b>Tags:</b> #parking #EUR40 #prebook #d9<br><br>D9. EUR40 per car, PRE-BOOKED ONLINE ONLY at pass.auronzo.info. Plate required, ticket valid 12h. 5 km up to Rifugio Auronzo from here.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Misurina+Tre+Cime+toll+road">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>12.265,46.59,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D13 · Sirmione ZTL — Parcheggio Grifo / Monte Baldo</name>
+<description><![CDATA[<b>Day 13 — Sat 17 Oct</b><br><b>Tags:</b> #parking #ztl #registerplate #d13<br><br>D13-14. The Sirmione peninsula is a 24/7 CAMERA ZTL, year-round. Hotel guests MUST email their plate 24-48h ahead and keep the confirmation. Non-guests park here, outside the gate.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Parcheggio+Monte+Baldo+Sirmione">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_park</styleUrl>
+<Point><coordinates>10.606,45.49,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>4 · Food &amp; drink</name><open>0</open>
+<Placemark>
+<name>D1 · Birra &amp; Brace — late option near the hotel</name>
+<description><![CDATA[<b>Day 1 — Mon 5 Oct</b><br><b>Tags:</b> #food #latenight #d1 #hedge #d1<br><br>D1 hedge. Roadside grill/pizzeria 2 min from the hotel, the kind of place that stays open late. Have reception (+39 031 851700) ring ahead — Monday is the standard closing day in Brianza. Better plan: eat at Malpensa.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Birra+e+Brace+Garbagnate+Monastero">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>9.304,45.774,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D2 · Dac a Tra&#x27; — Michelin star, 10 min from the hotel</name>
+<description><![CDATA[<b>Day 2 — Tue 6 Oct</b><br><b>Tags:</b> #food #michelin #splurge #d2<br><br>The closest starred restaurant to your base. Contemporary, produce-driven. +39 039 5312410.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Dac+a+Tra+Castello+di+Brianza">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>9.32,45.75,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D3 · Il Cavatappi / Vecchia Varenna</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #food #dinner #romantic #booknow #d3<br><br>D3 dinner. Il Cavatappi is tiny, in a stone alley — the romantic one. Vecchia Varenna is on the water in a former black-marble works. Varenna after dark is the prettiest village on the lake.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Il+Cavatappi+Varenna">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>9.285,46.01,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D5 · Nives — Selva village square</name>
+<description><![CDATA[<b>Day 5 — Fri 9 Oct</b><br><b>Tags:</b> #food #openyearround #safebet #d5<br><br>CONFIRMED OPEN YEAR-ROUND, which in this valley in October is not a small thing. South Tyrolean + Mediterranean, homemade pasta. +39 0471 773329.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Ristorante+Nives+Selva+di+Val+Gardena">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>11.7597,46.5556,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D6 · Abbazia di Novacella — monastery + winery</name>
+<description><![CDATA[<b>Day 6 — Sat 10 Oct</b><br><b>Tags:</b> #food #wine #indoor #rainplan #d6<br><br>Augustinian monastery with a rotunda library, baroque church AND its own winery doing tastings. Historic, indoors, wine — arguably a better rainy morning than the hike is a sunny one.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Abbazia+di+Novacella+Neustift">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>11.648,46.735,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D6 · Cantina Tramin — Termeno</name>
+<description><![CDATA[<b>Day 6 — Sat 10 Oct</b><br><b>Tags:</b> #wine #nobooking #closedSun #d6<br><br>One of Italy&#x27;s best co-ops in a striking modern building. Tastings in the wine shop WITHOUT booking, Sat 09:00-17:00, closed Sunday. An hour south — hard to combine with Val di Funes.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Cantina+Tramin+Termeno">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>11.24,46.34,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · El Brite de Larieto — on the Tre Croci road</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #food #booknow #closedWed #d8<br><br>D8 dinner, effectively on your doorstep. Agriturismo with its own dairy. Open until late October, CLOSED WEDNESDAYS. Book: +39 368 7008083.<br><br><a href="https://www.google.com/maps/search/?api=1&query=El+Brite+de+Larieto+Cortina">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>12.172,46.562,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D10 · Baita Fraina — above Cortina</name>
+<description><![CDATA[<b>Day 10 — Wed 14 Oct</b><br><b>Tags:</b> #food #dinner #d10 #d10<br><br>D10 dinner (El Brite is closed Wednesdays). Mountain-lodge regional cooking in small panelled rooms, Michelin Guide listed.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Baita+Fraina+Cortina">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>12.16,46.548,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D10 · SanBrite — Michelin star, &#x27;agricucina&#x27;</name>
+<description><![CDATA[<b>Day 10 — Wed 14 Oct</b><br><b>Tags:</b> #food #michelin #splurge #callfirst #d10<br><br>Everything from the family farm, own cheese dairy. Tasting EUR90-120. Sister to El Brite, 10 min from Passo Tre Croci. CALL +39 0436 863882 to confirm October opening.<br><br><a href="https://www.google.com/maps/search/?api=1&query=SanBrite+Cortina+d%27Ampezzo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>12.15,46.55,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D11 · Rifugio Ospitale — SS51 north of Cortina</name>
+<description><![CDATA[<b>Day 11 — Thu 15 Oct</b><br><b>Tags:</b> #food #roadaccessible #longseason #d11<br><br>11th-century hospice turned restaurant, road-accessible, tends to have a longer season than the mountain huts. A good long-lunch answer on a wet day.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Rifugio+Ospitale+Cortina">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>12.14,46.59,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Al Timon — Fondamenta dei Ormesini</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #food #spritz #canalside #d12<br><br>D12 evening. Everyone sits on the canal edge and on the moored boat. Daily 11:00-01:00.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Al+Timon+Venezia">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>12.3245,45.4455,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · All&#x27;Arco — San Polo 436</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #food #cicchetti #closedSun #go11am #d12<br><br>D13, 11:00. Standing-room counter, no written menu, everything made that morning. EUR1.50-4 each. NO RESERVATIONS, CLOSED SUNDAY, and the shutters come down ~14:00 when the trays are empty.<br><br><a href="https://www.google.com/maps/search/?api=1&query=All%27Arco+Venezia+San+Polo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>12.3345,45.4392,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Antiche Carampane — the big dinner</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #food #booknow #closedSunMon #d12<br><br>D12, 20:30. The one with the sign saying no pizza, no lasagne, no tourist menu. Outstanding fried fish. ~EUR70-90pp. BOOK WEEKS AHEAD. Closed Sun-Mon, so Friday works.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Antiche+Carampane+Venezia">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>12.33,45.4383,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Osteria alla Vedova — Cannaregio</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #food #cicchetti #thepolpetta #d12<br><br>D12 evening. The legendary deep-fried polpetta. EUR2-5 a cicchetto. Closed Thursday (fine for you). Carry cash.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Osteria+alla+Vedova+Venezia">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>12.3339,45.4426,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Vino Vero — Fondamenta Misericordia</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #food #naturalwine #daily #d12<br><br>D12 evening. Natural wine bar, crostini with stracciatella, anchovy, lardo. Open daily 12:00-24:00.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Vino+Vero+Venezia">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>12.327,45.445,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D14 · Cantina Zeni wine museum — Bardolino</name>
+<description><![CDATA[<b>Day 14 — Sun 18 Oct</b><br><b>Tags:</b> #wine #free #nobooking #d14<br><br>D14. Free museum and enoteca, no booking needed — the one drop-in option on the lake.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Museo+del+Vino+Zeni+Bardolino">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>10.718,45.557,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D14 · Guerrieri Rizzardi — Bardolino</name>
+<description><![CDATA[<b>Day 14 — Sun 18 Oct</b><br><b>Tags:</b> #wine #openSunday #booknow #d14<br><br>D14, 15:00. Aristocratic estate, tastings DAILY 10:00-18:30 — one of the very few open on a Sunday. From ~EUR15 for 90 min. Book: visite@guerrieri-rizzardi.it.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Guerrieri+Rizzardi+Bardolino">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>10.72,45.553,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D14 · Valeggio sul Mincio — &#x27;nodo d&#x27;amore&#x27; tortellini</name>
+<description><![CDATA[<b>Day 14 — Sun 18 Oct</b><br><b>Tags:</b> #food #lunch #ontheme #d14<br><br>D14 lunch, 15 min from Peschiera. Home of tortellini di Valeggio, the love-knot, with its own legend about a nymph and a knight. About as on-theme as a honeymoon lunch gets.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Valeggio+sul+Mincio">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>10.735,45.352,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D15 · Franciacorta — Ca&#x27; del Bosco / Bellavista, Erbusco</name>
+<description><![CDATA[<b>Day 15 — Mon 19 Oct</b><br><b>Tags:</b> #wine #onroute #lastlunch #d15<br><br>D15, ~13:00. Italy&#x27;s best metodo classico, ~40 min along the A4 towards MXP. Turns dead driving time into the last good thing you do. WHOEVER DRIVES DOESN&#x27;T TASTE.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Ca+del+Bosco+Erbusco+Franciacorta">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>9.977,45.572,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D15 · Zenato — Peschiera del Garda</name>
+<description><![CDATA[<b>Day 15 — Mon 19 Oct</b><br><b>Tags:</b> #wine #booknow #MonSat #d15<br><br>D15, 10:00. Lugana AND Valpolicella/Amarone under one roof — the best single tasting on the lake. Classic tour EUR40 (4 wines + food, 90 min). MON-SAT ONLY, booking essential.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Zenato+Peschiera+del+Garda">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_food</styleUrl>
+<Point><coordinates>10.705,45.446,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>5 · Rain &amp; cold fallbacks</name><open>0</open>
+<Placemark>
+<name>D2 · Como Duomo + Museo della Seta — wet-day swap</name>
+<description><![CDATA[<b>Day 2 — Tue 6 Oct</b><br><b>Tags:</b> #rain #indoor #d2 #d2<br><br>D2 RAIN PLAN. The Duomo is free and one of the great Gothic/Renaissance hybrids in Italy. The silk museum is far better than it sounds — Como was the silk capital of Europe. Also Tempio Voltiano, Basilica di Sant&#x27;Abbondio. Skip the Brunate funicular: you&#x27;d pay to sit in a cloud.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Duomo+di+Como">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>9.0832,45.8103,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D3 · Accademia Carrara, Bergamo — best wet day on the Como leg</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #rain #indoor #swapWedThu #d3<br><br>D3 RAIN PLAN. Botticelli, Bellini, Raphael, Titian. SWAP WEDNESDAY AND THURSDAY and do Bergamo today — it costs nothing because Thursday&#x27;s Bergamo stop was optional anyway. Plus arcaded Citta Alta, Santa Maria Maggiore, Cappella Colleoni.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Accademia+Carrara+Bergamo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>9.673,45.705,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D3 · Lecco museums — Villa Manzoni &amp; Palazzo delle Paure</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #rain #indoor #EUR6 #d3<br><br>D3 local rain option. EUR6 each. Villa Manzoni is the family home of the man who wrote Italy&#x27;s national novel about THIS shore. Lecco&#x27;s Wednesday market (Piazza Garibaldi, 07:30-14:00) is thin in heavy rain.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Villa+Manzoni+Lecco">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>9.3878,45.8497,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D5 · Otzi — South Tyrol Museum of Archaeology, Bolzano</name>
+<description><![CDATA[<b>Day 5 — Fri 9 Oct</b><br><b>Tags:</b> #rain #indoor #bestwetday #d5<br><br>THE best wet-weather destination of the whole trip, ~50 min down the valley from Selva. The 5,300-year-old iceman found in a glacier up the road. Use it for whichever Val Gardena day is a write-off. Bolzano also has the arcaded Portici and the Duomo.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Museo+Archeologico+Alto+Adige+Bolzano+Otzi">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>11.351,46.4991,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D5 · Vallunga — flat, low, forested, fine in drizzle</name>
+<description><![CDATA[<b>Day 5 — Fri 9 Oct</b><br><b>Tags:</b> #rain #easyhike #25h #d5<br><br>Val Gardena drizzle option, straight from Selva. Flat gravel track up a glacier-carved valley under the Puez walls, 2.5h return, larches everywhere. Pay-and-display at Parcheggio Vallunga. Also the D8 slow-morning fallback.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Vallunga+Selva+di+Val+Gardena">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>11.781,46.559,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D7 · Terme Merano — the cold/wet Sunday answer</name>
+<description><![CDATA[<b>Day 7 — Sun 11 Oct</b><br><b>Tags:</b> #rain #spa #thermal #romantic #d7<br><br>D7 RAIN PLAN, ~1h15 from Selva. Large thermal complex, indoor AND outdoor pools, big sauna world. Being outside in hot water in cold rain is not a consolation prize. Merano has covered arcades and the Kurhaus too.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Terme+Merano+Therme+Meran">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>11.1607,46.6688,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Brunico / Bruneck — Messner Mountain Museum Ripa</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #rain #indoor #checkhours #d8<br><br>D8 RAIN PLAN, on the valley fallback route. Handsome market town; the castle holds MMM Ripa, on the mountain peoples of the world. CHECK OCTOBER HOURS.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Messner+Mountain+Museum+Ripa+Brunico">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>11.937,46.796,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D9 · Dobbiaco / Toblach — Mahler &amp; cultural centre</name>
+<description><![CDATA[<b>Day 9 — Tue 13 Oct</b><br><b>Tags:</b> #rain #indoor #d9<br><br>D9 rain option, on the way back from Braies. Gustav Mahler composed here; the Grand Hotel is now a cultural centre.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Dobbiaco+Toblach">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>12.222,46.735,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D9 · San Candido / Innichen — church + Acquafun pool</name>
+<description><![CDATA[<b>Day 9 — Tue 13 Oct</b><br><b>Tags:</b> #rain #indoor #pool #checkhours #d9<br><br>D9 RAIN PLAN — bail north instead of east. Beautiful Romanesque collegiate church, and Acquafun indoor pool/wellness centre. CHECK HOURS. Save the EUR40 and book Tre Cime for another day — this is exactly why you don&#x27;t book it early.<br><br><a href="https://www.google.com/maps/search/?api=1&query=San+Candido+Innichen+Acquafun">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>12.279,46.733,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D10 · Cortina museums — Zardini fossils &amp; Rimoldi art</name>
+<description><![CDATA[<b>Day 10 — Wed 14 Oct</b><br><b>Tags:</b> #rain #indoor #checkhours #d10<br><br>D10 RAIN PLAN. Museo Paleontologico Rinaldo Zardini (these mountains are a fossilised coral reef — a good thing to learn while looking at them) and the Mario Rimoldi modern art collection, both in the Ciasa de ra Regoles. Small municipal museums — CHECK OCTOBER HOURS.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Musei+delle+Regole+Cortina+d%27Ampezzo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>12.137,46.539,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D11 · Forte Tre Sassi — WWI museum, Passo Valparola</name>
+<description><![CDATA[<b>Day 11 — Thu 15 Oct</b><br><b>Tags:</b> #rain #indoor #ontheme #checkhours #d11<br><br>D11 RAIN PLAN. A restored Austro-Hungarian fort covering exactly the WWI front you&#x27;d have been walking at Cinque Torri and Lagazuoi — with a roof. Seasonal: CHECK OCTOBER HOURS.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Forte+Tre+Sassi+Passo+Valparola">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>11.993,46.529,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Gallerie dell&#x27;Accademia — Venice</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #rain #indoor #dorsoduro #d12<br><br>D12 rain plan, minutes from a Dorsoduro hotel. Venice is genuinely rain-proof; the October risk is ACQUA ALTA, not rain. Check the city tide forecast the night before and buy rubber overshoes.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Gallerie+dell%27Accademia+Venezia">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>12.328,45.4314,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Peggy Guggenheim Collection</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #rain #indoor #dorsoduro #d12<br><br>D12 rain plan. Modern art on the Grand Canal, a few minutes from the Accademia.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Peggy+Guggenheim+Collection+Venezia">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>12.3316,45.4308,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D12 · Scuola Grande di San Rocco — Tintoretto</name>
+<description><![CDATA[<b>Day 12 — Fri 16 Oct</b><br><b>Tags:</b> #rain #indoor #underrated #d12<br><br>D12 rain plan. Tintoretto&#x27;s entire cycle, in the room he painted it for. One of the great interiors in Europe and never crowded.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Scuola+Grande+di+San+Rocco+Venezia">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>12.326,45.4368,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D14 · Aquaria Thermal SPA — Sirmione</name>
+<description><![CDATA[<b>Day 14 — Sun 18 Oct</b><br><b>Tags:</b> #rain #spa #thermal #d14<br><br>D14 RAIN PLAN, and the best one on the trip. Sulphurous thermal spring, indoor and outdoor pools, five minutes from the castle. Everything else on D14 already has a roof: the winery, the olive oil museum, the Valeggio lunch.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Aquaria+Thermal+SPA+Sirmione">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>10.608,45.494,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D14 · Museo dell&#x27;Olio d&#x27;Oliva — Cisano</name>
+<description><![CDATA[<b>Day 14 — Sun 18 Oct</b><br><b>Tags:</b> #rain #indoor #free #d14<br><br>D14. Free museum and shop, open daily. Mid-October is the start of the Garda DOP olive harvest.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Museo+dell%27Olio+di+Oliva+Cisano+Bardolino">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>10.73,45.53,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D14 · Verona — Arena, Castelvecchio, Duomo</name>
+<description><![CDATA[<b>Day 14 — Sun 18 Oct</b><br><b>Tags:</b> #rain #indoor #ztl #d14<br><br>D14 rain option, 30 min from Sirmione. Mind the ZTL: Mon-Fri 10:00-13:30 and 16:00-18:00, Sat-Sun 10:00-13:30. Park at Cittadella.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Arena+di+Verona">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_rain</styleUrl>
+<Point><coordinates>10.994,45.439,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>6 · Optional &amp; swaps</name><open>0</open>
+<Placemark>
+<name>D3 · Lecco Wednesday market — Piazza Garibaldi</name>
+<description><![CDATA[<b>Day 3 — Wed 7 Oct</b><br><b>Tags:</b> #optional #market #wedonly #d3<br><br>D3 alternative, 07:30-14:00, 50+ stalls. Runs 4 Mar - 25 Nov 2026. Wednesday 7 October falls perfectly in your stay.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Piazza+Garibaldi+Lecco">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_opt</styleUrl>
+<Point><coordinates>9.393,45.856,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D5 · Cristauta / Praplan — fully-on-foot Seceda start</name>
+<description><![CDATA[<b>Day 5 — Fri 9 Oct</b><br><b>Tags:</b> #optional #bighike #900m #d5<br><br>D5 hardcore option. Trail 4 up to the ridge — but with FERMEDA CLOSED it&#x27;s a +900-1,000 m climb with no shortcut. Real, but a big first day in the mountains.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Santa+Cristina+Val+Gardena">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_opt</styleUrl>
+<Point><coordinates>11.728,46.562,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D6 · Geisler Alm / Rifugio delle Odle</name>
+<description><![CDATA[<b>Day 6 — Sat 10 Oct</b><br><b>Tags:</b> #optional #hut #maybeclosed #d6<br><br>D6. You flagged this as a &#x27;no go&#x27; — I&#x27;d push back gently. It&#x27;s directly ON the Adolf Munkel Weg, so you pass its door regardless. The busy/commercial complaint is a high-summer problem. THE REAL RISK IS THAT IT&#x27;S SHUT — October season unverified.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Geisler+Alm+Rifugio+delle+Odle+Villnoss">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_opt</styleUrl>
+<Point><coordinates>11.7,46.63,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Segra Sacun market — Ortisei, 12 Oct only</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #optional #fallback #d8 #d8<br><br>D8 FALLBACK, 08:00-16:00. The biggest traditional market of the year — food stalls, crafts, and a tradition of men giving women a decorated pear. CLASHES with the 08:00 Great Dolomites Road start; you can&#x27;t have both. Take it if you want a slow morning or it rains.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Ortisei+Sankt+Ulrich+centro">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_opt</styleUrl>
+<Point><coordinates>11.672,46.576,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D9 · Lago di Misurina — 10-minute stop</name>
+<description><![CDATA[<b>Day 9 — Tue 13 Oct</b><br><b>Tags:</b> #optional #photo #ontheway #d9<br><br>D9. Directly on the Tre Cime road and you pass it twice — take whichever light is better. The Grand Hotel Misurina reflected with the Sorapis group behind. Col de Varda chairlift closed 20 Sep.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Lago+di+Misurina">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_opt</styleUrl>
+<Point><coordinates>12.253,46.583,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D10 · Lago di Sorapis — FLEX day, from the hotel door</name>
+<description><![CDATA[<b>Day 10 — Wed 14 Oct</b><br><b>Tags:</b> #flex #hike #ICERISK #microspikes #d10<br><br>FLEX. Trailhead is at Passo Tre Croci. 11.5 km out-and-back, ~500 m, ~4h. TRAIL 215 HAS CABLED EXPOSED LEDGES, METAL LADDERS AND POLISHED ROCK, all north/east-facing and shaded — ICED LADDERS ARE A REAL OCTOBER RISK. Rif. Vandelli closed 20 Sep: no water, shelter or toilet. Mildest driest day only, mid-morning start, CARRY MICROSPIKES, turn back if there&#x27;s ice. Ask the hotel the night before.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Lago+di+Sorapis+Passo+Tre+Croci">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_opt</styleUrl>
+<Point><coordinates>12.2264,46.5726,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D11 · Monte Mondeval from Passo Giau — full-day option</name>
+<description><![CDATA[<b>Day 11 — Thu 15 Oct</b><br><b>Tags:</b> #optional #hike #5h #d11<br><br>D11 alternative. 12.8 km, ~5h, moderate, open and panoramic, larch-rich. A full-day substitute for the Lagazuoi/Cinque Torri pair.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Passo+Giau">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_opt</styleUrl>
+<Point><coordinates>12.054,46.479,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D11 · Val Travenanzes descent from Lagazuoi</name>
+<description><![CDATA[<b>Day 11 — Thu 15 Oct</b><br><b>Tags:</b> #optional #hike #carshuttle #d11<br><br>D11 alternative. Cable car up, walk down a wild hanging valley to Ponte Outo on the SR48 — 4-5h, mostly descent, some cabled steps near the forcella. NEEDS A CAR SHUTTLE.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Val+Travenanzes+Cortina">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_opt</styleUrl>
+<Point><coordinates>12.0,46.53,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>7 · Passes &amp; drive stops</name><open>0</open>
+<Placemark>
+<name>D8 · Passo Campolongo / Arabba — short route</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #pass #shortroute #d8<br><br>On the short pass route (Gardena - Corvara - Campolongo - Arabba - Falzarego, 85 km, 2h45), the fallback if you skip Carezza and Canazei.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Arabba+Livinallongo">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_pass</styleUrl>
+<Point><coordinates>11.872,46.497,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Passo Falzarego — 2,105 m</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #pass #2105m #lagazuoi #d8<br><br>D8 and D11. Free parking, and the base of the Lagazuoi cable car — the only lift still running in Cortina. Kept open through winter, so October is never in doubt.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Passo+Falzarego">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_pass</styleUrl>
+<Point><coordinates>12.009,46.519,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Passo Gardena — 2,121 m (short route + sunset)</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #pass #2121m #sunset #shortroute #d8<br><br>The short-route alternative for D8. Also the best zero-effort sunset of the Val Gardena leg — Sassolungo framed by golden larches, 15 min from Selva.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Passo+Gardena">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_pass</styleUrl>
+<Point><coordinates>11.818,46.547,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Passo Pordoi — 2,239 m</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #pass #2239m #d8 #d8<br><br>D8, ~12:45. Sass Pordoi cable car above it almost certainly closed by mid-October — bonus, not a plan.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Passo+Pordoi">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_pass</styleUrl>
+<Point><coordinates>11.813,46.488,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Passo Sella — 2,244 m</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #pass #2244m #d7 #d8 #d8<br><br>Crossed twice: D7 for the coffin gondola, D8 on the Great Dolomites Road. Sassolungo fills the windscreen the whole way up. 20 min from Selva. Free parking.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Passo+Sella">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_pass</styleUrl>
+<Point><coordinates>11.7622,46.5088,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D8 · Valley fallback — Val Pusteria via Dobbiaco</name>
+<description><![CDATA[<b>Day 8 — Mon 12 Oct</b><br><b>Tags:</b> #badweather #fallbackroute #2h20 #d8<br><br>D8 SNOW FALLBACK. Ponte Gardena - A22 - Val Pusteria - Dobbiaco - SS51. 145 km, ~2h20 — actually FASTER on the clock than the passes, just far less beautiful. Check venetostrade.it and the Bolzano traffic portal that morning.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Dobbiaco+Toblach">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_pass</styleUrl>
+<Point><coordinates>12.222,46.735,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>D11 · Passo Giau — 2,236 m</name>
+<description><![CDATA[<b>Day 11 — Thu 15 Oct</b><br><b>Tags:</b> #pass #2236m #returnloop #larches #d11<br><br>D11 return leg. Come home over Giau on the SP638 instead of retracing Falzarego — same time, makes the day a loop. Bare amphitheatre under Ra Gusela and Nuvolau; larches rivalling Lago Federa. Rifugio Fedare at the top is OPEN YEAR-ROUND.<br><br><a href="https://www.google.com/maps/search/?api=1&query=Passo+Giau">▶ Open exact location in Google Maps</a>]]></description>
+<styleUrl>#s_pass</styleUrl>
+<Point><coordinates>12.054,46.479,0</coordinates></Point>
+</Placemark>
+</Folder>
+</Document></kml>

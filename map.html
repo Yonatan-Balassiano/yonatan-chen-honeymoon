@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map · Honeymoon Italy 2026</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/leaflet.css">
+<script src="assets/leaflet.js"></script>
+<script src="assets/places.js"></script>
+</head><body>
+<header class="hero small"><div class="inner">
+<p class="eyebrow">Honeymoon</p><h1>Lakes, Dolomites &amp; Lagoon</h1>
+<p class="dates">109 pins · 7 layers · 15 days</p>
+</div></header>
+<nav class="tabs"><div class="inner"><a href="index.html">Home</a><a href="itinerary.html">Itinerary</a><a href="map.html" class="on">Map</a><a href="weather.html">Bad weather</a><a href="food.html">Food</a><a href="picks.html">Picks</a><a href="practical.html">Practical</a><a href="checklist.html">Checklist</a></div></nav>
+<div class="wrap">
+
+<h2 class="sec">Interactive map</h2>
+<div class="mapctl">
+  <label>Show day
+    <select id="daysel"><option value="0">All 15 days</option></select>
+  </label>
+  <span id="count" style="color:var(--ink-3);font-size:13px"></span>
+</div>
+<div id="bigmap"></div>
+<div class="legend" id="legend"></div>
+<p style="font-size:13px;color:var(--ink-3);margin:14px 0 0">Click any pin for the notes and a link that opens the exact spot in Google Maps. Tap a coloured pill to hide or show that layer.</p>
+<h2 class="sec" id="map">The map — 109 pins in 7 layers</h2>
+
+<div class="callout">
+  <h3>Getting it into Google My Maps — two minutes</h3>
+  <ol>
+    <li>Go to <b>mymaps.google.com</b> and sign in.</li>
+    <li>Click <b>+ Create a new map</b>.</li>
+    <li>Click <b>Import</b> under the first layer.</li>
+    <li>Upload <b>Honeymoon-Italy-2026-map.kml</b>.</li>
+    <li>The seven folders arrive as seven layers you can tick on and off. Rename the map and share it with each other.</li>
+  </ol>
+  <p style="margin:12px 0 0;font-size:14px">On your phone it appears under <b>Google Maps → Saved → Maps</b>. My Maps is view-only in the mobile app — edit on desktop. If the KML import misbehaves, the zip also has CSVs: import one, choose <em>Latitude</em> and <em>Longitude</em> as the position columns and <em>Name</em> as the title. One CSV import = one layer, so do the seven files in <code>map-csv-layers/</code> one at a time.</p>
+</div>
+
+<div class="tblwrap">
+<table>
+<thead><tr><th>Layer</th><th>Pins</th><th>What's in it</th></tr></thead>
+<tbody>
+<tr><td><b>1 · Bases &amp; hotels</b></td><td class="num">6</td><td>Where you sleep, plus Malpensa. Includes the two still unbooked.</td></tr>
+<tr><td><b>2 · Main plan</b></td><td class="num">33</td><td>The sights and hikes you're actually doing, day by day.</td></tr>
+<tr><td><b>3 · Parking</b></td><td class="num">18</td><td>Where to leave the car each day, with the free options flagged.</td></tr>
+<tr><td><b>4 · Food &amp; drink</b></td><td class="num">20</td><td>Restaurants, mountain huts, wineries, the Törggelen farms.</td></tr>
+<tr><td><b>5 · Rain &amp; cold fallbacks</b></td><td class="num">17</td><td>The indoor and spa plan B for each day — Ötzi, Terme Merano, Aquaria, the galleries.</td></tr>
+<tr><td><b>6 · Optional &amp; swaps</b></td><td class="num">8</td><td>Things to slot in or drop, including the Sorapis flex day.</td></tr>
+<tr><td><b>7 · Passes &amp; drive stops</b></td><td class="num">7</td><td>The high passes and the route decisions between them.</td></tr>
+</tbody>
+</table>
+</div>
+
+<p style="font-size:14.5px;color:var(--ink-2);margin:20px 0 8px"><b>Tags.</b> Every pin's description opens with a day label and a tag line, so you can search the map for <code>#rain</code> or <code>#d9</code> and see only what matters. Day numbers run <b>D1 = Mon 5 Oct</b> through <b>D15 = Mon 19 Oct</b>.</p>
+
+<div class="tblwrap">
+<table>
+<thead><tr><th>Tag family</th><th>Tags</th></tr></thead>
+<tbody>
+<tr><td><b>Day</b></td><td><code>#d1</code> … <code>#d15</code></td></tr>
+<tr><td><b>Kind of place</b></td><td><code>#hike</code> <code>#sight</code> <code>#lake</code> <code>#town</code> <code>#pass</code> <code>#lift</code> <code>#hut</code> <code>#villa</code> <code>#market</code> <code>#boat</code> <code>#photo</code></td></tr>
+<tr><td><b>Car</b></td><td><code>#parking</code> <code>#free</code> <code>#paid</code> <code>#trailhead</code> <code>#ferry</code> <code>#funicular</code> <code>#ztl</code> <code>#registerplate</code> <code>#maxheight210</code></td></tr>
+<tr><td><b>Food</b></td><td><code>#food</code> <code>#wine</code> <code>#michelin</code> <code>#splurge</code> <code>#lunch</code> <code>#dinner</code> <code>#cicchetti</code></td></tr>
+<tr><td><b>Weather</b></td><td><code>#rain</code> <code>#indoor</code> <code>#spa</code> <code>#thermal</code> <code>#rainproof</code> <code>#weatherdependent</code> <code>#betterinrain</code></td></tr>
+<tr><td><b>Status</b></td><td><code>#optional</code> <code>#fallback</code> <code>#flex</code> <code>#preferred</code> <code>#tobook</code></td></tr>
+<tr><td><b>Action needed</b></td><td><code>#booknow</code> <code>#prebook</code> <code>#callfirst</code> <code>#checkhours</code> <code>#confirm</code></td></tr>
+<tr><td><b>Dates &amp; closures</b></td><td><code>#closes11Oct</code> <code>#closes12Oct</code> <code>#to18Oct</code> <code>#to2Nov</code> <code>#closedWed</code> <code>#closedTue</code> <code>#closedSun</code> <code>#datecritical</code></td></tr>
+<tr><td><b>Safety</b></td><td><code>#ICERISK</code> <code>#microspikes</code> <code>#exposed</code> <code>#dryonly</code> <code>#slipperywet</code> <code>#carryfood</code> <code>#goearly</code> <code>#before9am</code></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="note warn"><b>On pin accuracy:</b> the coordinates are <b>approximate — typically within 100–300 m</b>. That's enough to see the shape of each day and navigate to the right area, but it isn't survey-grade, and a few (the Oswald Grand Hotel especially) are placed on the village rather than the building. Every pin description therefore ends with an <b>"Open exact location in Google Maps"</b> link that resolves precisely. <b>Use the pin for planning and the link for driving.</b></div>
+
+<div class="note tip"><b>A quick way to use it in the field:</b> switch off every layer except <b>Parking</b> when you arrive somewhere, and except <b>Rain &amp; cold fallbacks</b> when you wake up to bad weather. Those two layers are the ones that answer a question you actually have at the moment you have it.</div>
+
+<!-- ============ EATING ============ -->
+<footer>
+  Italy · 5–19 October 2026 · <a href="index.html">Home</a> ·
+  <a href="assets/Honeymoon-Italy-2026-map.kml">Download map (KML)</a> ·
+  <a href="assets/Honeymoon-Italy-2026-places.csv">Download places (CSV)</a><br>
+  Pin coordinates are approximate — use the pin for planning and the Google Maps link for driving.
+</footer>
+</div>
+
+<script>
+(function(){
+  var map=L.map('bigmap',{scrollWheelZoom:false}).setView([46.15,10.9],7);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+  map.on('click',function(){map.scrollWheelZoom.enable()});
+  map.on('mouseout',function(){map.scrollWheelZoom.disable()});
+  var groups={},on={};
+  for(var k in LAYERS){groups[k]=L.layerGroup().addTo(map);on[k]=true;}
+  function esc(s){return String(s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+  var sel=document.getElementById('daysel');
+  for(var d=1;d<=15;d++){var o=document.createElement('option');o.value=d;o.textContent='D'+d+' · '+DAYNAMES[d];sel.appendChild(o);}
+  function draw(day){
+    var n=0;
+    for(var k in groups) groups[k].clearLayers();
+    PLACES.forEach(function(i){
+      if(day!=0 && i.d!=day) return; n++;
+      var m=L.circleMarker([i.la,i.lo],{radius:7,color:'#fff',weight:2,
+            fillColor:LAYERS[i.l].col,fillOpacity:.95});
+      m.bindPopup('<div class="lp"><b>D'+i.d+' · '+esc(i.n)+'</b>'+
+        '<span class="tg">'+esc(i.t)+'</span>'+
+        '<span class="nt"><b>'+esc(i.dt)+'</b> — '+esc(i.no)+'</span>'+
+        '<a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query='+
+        encodeURIComponent(i.q)+'">▶ Open exact location in Google Maps</a></div>',{maxWidth:300});
+      m.bindTooltip('D'+i.d+' · '+i.n,{direction:'top'});
+      m.addTo(groups[i.l]);
+    });
+    document.getElementById('count').textContent=n+' pins shown';
+  }
+  var lg=document.getElementById('legend');
+  for(var k in LAYERS){
+    lg.insertAdjacentHTML('beforeend',
+      '<label><input type="checkbox" data-k="'+k+'" checked>'+
+      '<span class="sw" style="background:'+LAYERS[k].col+'"></span>'+esc(LAYERS[k].name)+'</label>');
+  }
+  lg.addEventListener('change',function(e){
+    var k=e.target.getAttribute('data-k'); if(!k) return;
+    e.target.checked?map.addLayer(groups[k]):map.removeLayer(groups[k]);
+  });
+  sel.addEventListener('change',function(e){draw(+e.target.value)});
+  draw(0);
+})();
+</script>
+
+</body></html>
